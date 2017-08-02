@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+	<title>测试首页</title>
+	<style>
+		@media screen and (max-width: 459px) and (min-width: 0px){
+			body{
+				/*background-color: white;*/
+			}
+			.head_1_blank_left{
+				width: 2%;
+			}
+			.head_1_blank_right{
+				width: 2%;
+			}
+			.search_1_box{
+				display: none;
+			}
+			#logo_1_home{
+				display: none;
+			}
+			div.lead_choose ol li{
+
+				padding-left:5%;
+			}
+			div.lead_choose ol{
+				width: 200px;
+			}
+		}
+		@media screen and (max-width: 524px) and (min-width: 460px){
+			body{
+				/*background-color: white;*/
+			}
+			.head_1_blank_left{
+				width: 2%;
+			}
+			.head_1_blank_right{
+				width: 2%;
+			}
+			.search_1_box{
+				display: none;
+			}
+			div.lead_choose ol li{
+
+				padding-left:10%;
+			}
+			div.lead_choose ol{
+				width: 284px;
+			}
+		}
+		@media screen and (max-width: 699px) and (min-width: 525px){
+			body{
+				/*background-color: yellow;*/
+			}
+			.head_1_blank_left{
+				width: 10%;
+			}
+			.head_1_blank_right{
+				width: 5%;
+			}
+			.search_1_box{
+				display: none;
+			}
+			div.lead_choose ol li{
+
+				padding-left:10%;
+			}
+			div.lead_choose ol{
+				width: 284px;
+			}
+		}
+		@media screen and (max-width: 779px) and (min-width: 700px){
+			body{
+				/*background-color: yellow;*/
+			}
+			.head_1_blank_left{
+				width: 2%;
+			}
+			.head_1_blank_right{
+				width: 5%;
+			}
+			div.lead_choose ol li{
+
+				padding-left:10%;
+			}
+			div.lead_choose ol{
+				width: 284px;
+			}
+		}
+
+		@media screen and (max-width: 1000px) and (min-width: 780px){
+			body{
+				/*background-color: #dd5862;*/
+			}
+			.head_1_blank_left{
+				width: 5%;
+			}
+			.head_1_blank_right{
+				width: 10%;
+			}
+			div.lead_choose ol li{
+
+				padding-left:10%;
+			}
+			div.lead_choose ol{
+				width: 284px;
+			}
+		}
+		@media screen and (min-width: 1001px){
+			.head_1_blank_left{
+				width: 15%;
+			}
+			.head_1_blank_right{
+				width: 15%;
+			}
+			div.lead_choose ol li{
+				padding-left:10%;
+			}
+			div.lead_choose ol{
+				width: 284px;
+			}
+
+		}
+	    body{
+	    	font:13px/22px Verdana,'微软雅黑','Microsoft YaHei',Helvetica,Arial;
+	        padding:0px;
+		color:#2d2d2d;
+		margin:0px;
+		}
+	    div.head_1_redLine{
+	    	width:100%;
+			height: 2px;
+		border: none;
+		background-color:#DD5862;
+		}
+	    div.lead_choose{
+	    	float:left;
+			background-color: #F2F2F2;
+		height:50px;
+		width:100%;
+
+		}
+	    div.head_search form{
+		display:inline-block;
+		float:left;
+			margin-top: 20px;
+	    }
+
+	    div.lead_choose ol{
+			height: 51px;
+			float: left;
+		}
+	    div.lead_choose ol li{
+	      display:block;
+	      list-style:none;
+			float:left;
+	   }
+	    span.head_smallIcon{
+	    	float:left;
+	    	display:inline-block;
+	    	width:32px;
+		height:39px;
+		background-repeat:no-repeat;
+		background-position:0 -300px;
+		background-image:url(../imgs/icon-common.png);
+		margin-top:5px;
+		overflow:hidden;
+		}
+	    div.lead_choose ol li a{
+	    	font-size:18px;
+			color: black;
+			text-decoration: none;
+		}
+		div.lead_choose ol li a:hover{
+			color: #dd5862;
+		}
+	    .type_1_word{
+			background-color: #F2F2F2;
+			padding-left: 25px;
+		border:solid 1px #cecece;
+		height:27px;
+		border-radius: 20px 20px 20px 20px;
+		width:107px;
+			transition: 500ms;
+			-webkit-transition: 500ms;
+			display: inline-block;
+		}
+		div.search_1_box{
+			position: relative;
+			float: left;
+			width: 200px;
+			height: 30px;
+			margin-top: 10px;
+			margin-left: 20px;
+			 }
+		.search_button_img{
+			width: 18px;
+			height: 19px;
+			background-image: url("../imgs/icon-common.png");
+			background-repeat: no-repeat;
+			display: inline-block;
+			background-position: -110px -240px;
+		}
+		.search_1_box button{
+			background: 0 0;
+			border: none;
+			position: absolute;
+			left: 0px;
+			top: 8px;
+			height: 20px;
+			width: 25px;
+			cursor: pointer;
+			font-size: 14px;
+		}
+		.head_1_blank_left{
+			transition: 500ms;
+			-webkit-transition: 500ms;
+			float: left;
+			display: inline-block;
+			height: 48px;
+		}
+		.head_1_blank_right{
+			transition: 500ms;
+			-webkit-transition: 500ms;
+			transition: 500ms;
+			float: left;
+			display: inline-block;
+			height: 48px;
+		}
+		.login_1_register a{
+			text-decoration: none;
+			font-size: 15px;
+			line-height: 51px;
+		}
+	</style>
+
+    </head>
+    <body>
+
+	<div class="head_1_redLine"></div>
+	<div class="lead_choose">
+
+		<span class="head_1_blank_left"></span>
+	<!-- 。。。。。。。。。首页 logo。。。。。-->
+	<a href="" id="logo_1_home"><span class="head_smallIcon"></span></a>
+	
+	<ol>
+	       <li><a href="" target="blank">NBA</a></li>
+	       <li><a href="" target="blank">CBA</a></li>
+	       <li><a href="" target="blank">装备</a></li>
+	       <li><a href="" target="blank">球场</a></li>
+	
+	</ol>
+	<div class="search_1_box">
+	<form action="#" method="post">
+			<input type="text" name="" class="type_1_word"/>
+			<button type="submit" name="">
+			<span class="search_button_img"></span>
+			</button>
+		</form>
+	</div>
+		<span class="head_1_blank_right"></span>
+		<div class="login_1_register">
+			<a href="">登录/注册</a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../JS/jquery-1.4.min.js"></script>
+	<script>
+		$(".type_1_word").focus(function(){
+			$(this).css({"width":"170px","background-color":"white"});
+		})
+		$(".type_1_word").blur(function(){
+			$(this).css({"width":"107px","background-color":"#F2F2F2"});
+		})
+	</script>
+    </body>
+</html>
+
+
