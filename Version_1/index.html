@@ -3,7 +3,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<title>测试首页</title>
 	<style>
 		@media screen and (max-width: 459px) and (min-width: 0px){
@@ -349,6 +350,18 @@
 		div.clear_float{
 			clear: both;
 		}
+		#part_two{
+			width: 65%;
+			margin: auto;
+			margin-top: 80px;
+		}
+		#part_two_img div{
+			/*border-radius: 54px;*/
+			overflow: hidden;
+		}
+		#part_two_lead{
+			border-radius: 4px;
+		}
 	</style>
 
     </head>
@@ -382,6 +395,23 @@
 		</div>
 	</div>
 
+
+	<!-- 第二部分-->
+	<div  id="part_two" class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#part_two" data-slide-to="0" class="active"></li>
+			<li data-target="#part_two" data-slide-to="1"></li>
+			<li data-target="#part_two" data-slide-to="2"></li>
+			<li data-target="#part_two" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner" id="part_two_img">
+			<div class="item active"><a href=""><img src="./imgs/59883d5c39240.jpg" alt="第一张图片"></a></div>
+			<div class="item"><a href=""><img src="./imgs/598691c5644a8.jpg" alt="第二张图片"></a></div>
+			<div class="item"><a href=""><img src="./imgs/5989320bd60e9.jpg" alt="第三张图片"></a></div>
+			<div class="item"><a href=""><img src="./imgs/598996242ba7a.jpg" alt="第四章图片"></a></div>
+		</div>
+		<a href="#part_two" class="carousel-control left" data-slide="prev" id="part_two_lead">&lsaquo;</a><a href="#part_two" class="carousel-control right" data-slide="next" id="part_two_lead">&rsaquo;</a>
+	</div>
 	<!-- 第三部分-->
 <div id="body">
 	<div id="one">
@@ -527,7 +557,8 @@
 		</div>
 	</div>
 	<div class="clear_float"></div>
-	<script type="text/javascript" src="JS/jquery-1.4.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
 	<script>
 		$(".type_1_word").focus(function(){
 			$(this).css({"width":"170px","background-color":"white"});

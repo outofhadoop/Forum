@@ -19,7 +19,7 @@
         }
         div.or_title{
             width: 65%;
-            border: solid;
+
             position: relative;
             font-size: 24px;
         }
@@ -29,32 +29,40 @@
             right: 0px;
             top: 12px;
             list-style: none;
+            width: 110px;
+            display: block;
         }
         div.or_title ul li{
             float: left;
+            margin-left: 5px;
         }
         div.or_4_1{
-            margin-top: 10px;
-        }
-        div.or_4_1 a:nth-child(1){
-            width: 150px;
-            height: 150px;
-            overflow: hidden;
+            margin-top: 20px;
+            float: left;
+
+            width: 65%;
+            /*border-radius: 10px 10px 10px 10px;*/
         }
         div.or_4_1 a:nth-child(1) img{
-            width: 100px;
-            height: 100px;
+            width: 100%;
+            height: 100%;
             float: left;
+            border-radius: 150px;
         }
         .or_4_2{
-            width: 270px;
+            width: 65%;
             float: left;
+            height: 150px;
+            margin-left: 5%;
+            margin-top: 50px;
         }
-        .or_4_2 a{
+        div.or_4_2 a:nth-child(1){
+            display: block;
             font-size: 22px;
             text-decoration: none;
             color: #2d2d2d;
-            line-height: 28px;
+
+
         }
         .or_4_2 a:hover{
             color: #dd5862;
@@ -63,9 +71,10 @@
             color: #7d7d7d;
             font-size: 17px;
             margin-top: 12px;
-
+            display: block;
         }
         .or_4_2_2{
+
             color: #7d7d7d;
             font-size: 13px;
             margin-top: 7px;
@@ -81,30 +90,89 @@
             float: left;
             height: 100px;
         }
+        .or_4_0{
+            float: left;
+            width: 50%;
+        }
+        .page_1{
+            display: block;
+            font-size: 13px;
+            line-height: 22px;
+            float: left;
+            width: 100%;
+        }
+        .or_4_img{
+            width: 30%;
+
+            overflow: hidden;
+            display: block;
+            float: left;
+        }
+        .or_4_img_link{
+            width: 100%;
+            display: block;
+
+        }
+        .or_4_img_link img{
+            height: 100%;
+            width: 100%;
+            border-radius: 4px;
+        }
+        .o_4_title{
+            font-size: 14px;
+            text-decoration: none;
+            line-height: 20px;
+        }
+        .o_4_author{
+            color: #7d7d7d;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        .or_4_3{
+            float: left;
+            margin-top: 20px;
+            width: 30%;
+            margin-left: 5%;
+        }
     </style>
 </head>
 <body>
 <div class="original_recommendation">
     <div class="or_title">
-
-        <span></span><span>原创推荐</span>
-        <ul>
-            <a href=""><li>单曲</li></a>
-            <a href=""><li>专栏</li></a>
-            <a href=""><li>更多></li></a>
-        </ul>
+        <div class="or_4_0">
+            <span></span><span>原创推荐</span>
+            <ul>
+                <a href=""><li>单曲</li></a>
+                <a href=""><li>专栏</li></a>
+                <a href=""><li>更多></li></a>
+            </ul>
+        </div>
         <div class="or_4_1">
 
-            <a href=""><img src="imgs/i_597e9d6c831a7.jpg" alt="推荐主题图片"/></a>
-            <span class="or_fill_4_blank_1"></span>
-
+            <a href="" class="or_4_img"><img src="imgs/i_597e9d6c831a7.jpg" alt="推荐主题图片"/></a>
             <div class="or_4_2">
                 <a href="">美妙噪音</a>
                 <p class="or_4_2_1">法兹乐队</p>
                 <p class="or_4_2_2">2017-07-31</p>
             </div>
+            <span class="page_1">现居辽宁丹东的刘彦佐，毕业于北京现代音乐研修学院。
+                她笑称自己是没有强大天赋，依于一点乐感倔强生长的草根级独立音乐人。
+                这首Bossa Nova风的《爱的天气》，确实充满扑面而来的青草香气。无论是在睡眼惺忪的早晨，
+                或是百般聊赖的午后，又或者是悠闲惬意的夜晚，这首慵懒却不失惊艳的歌都能与当下完美契合。
+            </span>
+        </div>
+
+        <div class="or_4_3">
+            <a href="" class="or_4_img_link"><img src="./imgs/FpD_MtgZmU6joonVwievb7e4GSYW.jpg" alt="推荐栏偏左边图片"/></a>
+           <p> <a href="" class="o_4_title">到底有多少音乐人在权游中打过酱油</a></p>
+            <p><a href="" class="o_4_author">yiqiu</a></p>
         </div>
         <div class="clear"></div>
+        <!--<div class="or_4_3">-->
+            <!--<a href="" class="or_4_img_link"><img src="./imgs/FiGMzORwXa-JwQ9&#45;&#45;ljpv-Gm6qYb.jpg" alt="推荐栏偏右边图片"/></a>-->
+           <!--<p><a href="" class="o_4_title">我的电台司令奇遇</a></p>-->
+            <!--<p><a href="" class="o_4_author">补梦人的狂想摇滚</a></p>-->
+        <!--</div>-->
     </div>
 
 </div>
