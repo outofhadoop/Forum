@@ -96,15 +96,33 @@
 	</div>
 
 
+<!-- 这是一个缓冲图片 -->
+    <div class="cover_all">
+        <div class="buffer_img">
+            <img src="./imgs/017a6b8e81f825eabd7819847eab0c5c.gif" alt="用于页面未加载成功时的缓冲图片"/>
+
+        </div>
+    </div>
 	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.js"></script>
 	<script>
-		$(".type_1_word").focus(function(){
-			$(this).css({"width":"170px","background-color":"white"});
-		})
-		$(".type_1_word").blur(function(){
-			$(this).css({"width":"107px","background-color":"#F2F2F2"});
-		})
+        $(document).ready(
+                function(){
+//                    加载缓冲动画：
+                    $(".cover_all").hide();
+
+//                  顶部搜索框：
+                    $(".type_1_word").focus(function(){
+                        $(this).css({"width":"170px","background-color":"white"});
+                    })
+                    $(".type_1_word").blur(function(){
+                        $(this).css({"width":"107px","background-color":"#F2F2F2"});
+                    })
+                }
+        )
+
+
+
 	</script>
     </body>
 </html>
